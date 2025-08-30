@@ -74,33 +74,7 @@ Use **Postman** or **cURL** to test API endpoints.
 
 ---
 
-## ⚙️ Configuration
 
-Update your `application.properties` file:
-
-```properties
-spring.datasource.url=jdbc:mysql://localhost:3306/urlshortener
-spring.datasource.username=root
-spring.datasource.password=your_password
-spring.jpa.hibernate.ddl-auto=update
-spring.jpa.show-sql=true
-spring.jpa.properties.hibernate.dialect=org.hibernate.dialect.MySQL8Dialect
-server.port=8080
-```
-
-Make sure MySQL is running and the `urlshortener` database is created.
-
----
-
-## 🧱 Future Improvements
-
-- Add Redis caching
-- Set expiration for URLs
-- Click analytics (date, IP, count)
-- User authentication
-- Frontend UI (React or plain HTML/CSS)
-
----
 
 ## 👨‍💻 Author
 
